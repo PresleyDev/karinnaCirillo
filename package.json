@@ -1,0 +1,33 @@
+{
+  "name": "karinnacirillo",
+  "version": "1.0.0",
+  "description": "Site institucional de Karinna Cirillo, especialista em beleza, procedimentos estéticos e formação profissional. Desenvolvido com HTML5, CSS3, TypeScript e Vite, seguindo boas práticas de arquitetura, responsividade, acessibilidade e Design System.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PresleyDev/karinnaCirillo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PresleyDev/karinnaCirillo/issues"
+  },
+  "homepage": "https://github.com/PresleyDev/karinnaCirillo#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "script": {
+    "dev": "vite",
+    "typescript": "tsc --noEmit"
+  }
+}
