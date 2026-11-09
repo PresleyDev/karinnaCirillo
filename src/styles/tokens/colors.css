@@ -1,0 +1,20 @@
+
+:root {
+  /* Cores de fundo */
+  --color-background: #FBEEE5;
+  --color-background-soft: #FAE8DA;
+  --color-peach: #EBC6B3;
+
+  /* Identidade visual */
+  --color-primary: #4D2D20;
+  --color-accent: #B29478;
+
+  /* Tipografia */
+  --color-text: #30221C;
+  --color-text-inverse: #FFFFFF;
+
+  /* Componentes */
+  --color-button-primary: var(--color-primary);
+  --color-button-text: var(--color-text-inverse);
+  --color-card-background: var(--color-background-soft);
+}

@@ -1,0 +1,52 @@
+
+:root {
+  /* ==================================
+     1. DURAÇÃO DAS TRANSIÇÕES
+     ================================== */
+
+  --duration-instant: 0ms;
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --duration-slower: 600ms;
+
+  /* ==================================
+     2. CURVAS DE ANIMAÇÃO
+     ================================== */
+
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ==================================
+     3. TRANSIÇÕES SEMÂNTICAS
+     ================================== */
+
+  --transition-color:
+    color var(--duration-fast) var(--ease-in-out),
+    background-color var(--duration-fast) var(--ease-in-out),
+    border-color var(--duration-fast) var(--ease-in-out);
+
+  --transition-shadow:
+    box-shadow var(--duration-normal) var(--ease-out);
+
+  --transition-transform:
+    transform var(--duration-normal) var(--ease-out);
+
+  --transition-opacity:
+    opacity var(--duration-normal) var(--ease-in-out);
+}
+
+/* ==================================
+   4. ACESSIBILIDADE
+   ================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-normal: 0ms;
+    --duration-slow: 0ms;
+    --duration-slower: 0ms;
+  }
+}

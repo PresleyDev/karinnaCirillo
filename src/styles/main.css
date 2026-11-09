@@ -1,4 +1,67 @@
+/* ==================================
+   KARINNA CIRILLO - ESTILOS
+   ================================== */
+
+/* DESIGN TOKENS */
+@import './tokens/colors.css';
+@import './tokens/spacing.css';
+@import './tokens/typography.css';
+@import './tokens/borders.css';
+@import './tokens/shadows.css';
+@import './tokens/layout.css';
+@import './tokens/motion.css';
+@import './tokens/layers.css';
+
+
+/* ESTILOS GLOBAIS */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  margin: var(--space-0);
+  padding: var(--space-0);
+
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  font-family: var(--font-body);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-line-height);
+}
+
+/* TÍTULOS */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: var(--text-heading-weight);
+  line-height: var(--text-heading-line-height);
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+  font-size: var(--font-size-hero);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+/* TÍTULOS DAS SEÇÕES */
+h2 {
+  font-size: var(--font-size-section-title);
+}
+
+/* TEXTOS */
+p {
+  font-family: var(--font-body);
+  line-height: var(--line-height-normal);
+}
+
+/* BOTÕES */
+button {
+  font-family: var(--font-body);
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+}
+
+/* FRASES DECORATIVAS */
+.signature-text {
+  font-family: var(--font-signature);
+  font-size: var(--font-size-signature);
 }

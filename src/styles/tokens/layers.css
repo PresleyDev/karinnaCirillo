@@ -1,0 +1,24 @@
+
+:root {
+  /* ==================================
+     1. ESCALA DE CAMADAS
+     ================================== */
+
+  --z-base: 0;
+  --z-raised: 10;
+  --z-sticky: 100;
+  --z-dropdown: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+
+  /* ==================================
+     2. TOKENS SEMÂNTICOS
+     ================================== */
+
+  --z-header: var(--z-sticky);
+  --z-mobile-menu: var(--z-dropdown);
+  --z-backdrop: var(--z-overlay);
+  --z-dialog: var(--z-modal);
+  --z-notification: var(--z-toast);
+}

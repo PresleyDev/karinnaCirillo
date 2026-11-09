@@ -1,0 +1,26 @@
+
+:root {
+  /* Espessuras de borda */
+  --border-width-none: 0;
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+
+  /* Cores de borda */
+  --border-color-default: var(--color-accent);
+  --border-color-subtle: var(--color-peach);
+  --border-color-strong: var(--color-primary);
+
+  /* Escala de arredondamentos */
+  --radius-none: 0;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-pill: 9999px;
+
+  /* Tokens semânticos */
+  --radius-button: var(--radius-pill);
+  --radius-card: var(--radius-lg);
+  --radius-input: var(--radius-sm);
+  --radius-image: var(--radius-md);
+}

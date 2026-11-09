@@ -1,0 +1,48 @@
+
+:root {
+  /* ==================================
+     1. LARGURAS DE CONTEÚDO
+     ================================== */
+
+  --content-max-width: 46rem;
+  --text-max-width: 65ch;
+  --form-max-width: 34rem;
+
+  /* ==================================
+     2. CABEÇALHO
+     ================================== */
+
+  --header-height: 4.5rem;
+
+  /* ==================================
+     3. SEÇÃO PRINCIPAL (HERO)
+     ================================== */
+
+  --hero-min-height: 30rem;
+
+  /* ==================================
+     4. ELEMENTOS INTERATIVOS
+     ================================== */
+
+  --button-min-height: 2.75rem;
+  --input-min-height: 3rem;
+
+  /* ==================================
+     5. PROPORÇÕES DAS IMAGENS
+     ================================== */
+
+  --procedure-image-ratio: 5 / 3;
+  --results-image-ratio: 16 / 9;
+  --about-image-ratio: 4 / 5;
+}
+
+/* ==================================
+   6. LAYOUT DESKTOP
+   ================================== */
+
+@media (min-width: 768px) {
+  :root {
+    --header-height: 5.5rem;
+    --hero-min-height: 34rem;
+  }
+}
