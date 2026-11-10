@@ -1,0 +1,73 @@
+
+/* ==================================
+   KARINNA CIRILLO - CSS RESET
+   ================================== */
+
+/* Dimensionamento previsivel */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Consistencia do tamanho de texto */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Altura minima da pagina */
+body {
+  min-height: 100vh;
+}
+
+/* Margens padronizadas */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote {
+  margin: 0;
+}
+
+/* Midias responsivas */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Controles herdam a tipografia */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+/* Preservar links legiveis */
+a {
+  text-decoration-skip-ink: auto;
+}
+
+/* Indicador de foco para teclado */
+:focus-visible {
+  outline: var(--border-width-medium)
+    solid var(--color-primary);
+  outline-offset: var(--space-1);
+}
